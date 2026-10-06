@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChinookApi/ChinookApi.csproj" />
+  <Project Path="tests/ChinookApi.Tests/ChinookApi.Tests.csproj" />
+</Solution>

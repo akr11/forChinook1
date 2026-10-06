@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chinook</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Chinook</h1>
+      <p>Дошка б’є в <code>/v1/move/suggest</code>. Рушій відповідає ходом у нотації PDN.</p>
+    </header>
+    <section class="layout">
+      <div>
+        <div id="board" class="board" aria-label="Шашкова дошка"></div>
+        <p id="status" class="status">Завантаження…</p>
+      </div>
+      <aside>
+        <label>
+          Позиція
+          <select id="samples"></select>
+        </label>
+        <label>
+          Рівень
+          <select id="level">
+            <option value="weak">weak</option>
+            <option value="medium" selected>medium</option>
+            <option value="strong">strong</option>
+          </select>
+        </label>
+        <div class="actions">
+          <button id="suggest" type="button">Хід рушія</button>
+          <button id="swap" type="button">Хід іншого кольору</button>
+        </div>
+        <pre id="output">Оберіть шашку і клітинку, або попросіть хід рушія.</pre>
+      </aside>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
