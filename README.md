@@ -16,8 +16,17 @@ Repository: [github.com/akr11/forChinook1](https://github.com/akr11/forChinook1)
 
 ## Demo videos
 
-- [API / health & suggest](demo/demo-api.mov)
-- [Board UI](demo/demo-board.mov)
+### API / health & suggest
+
+[![API demo preview](demo/demo-api.mov.png)](demo/demo-api.mov)
+
+[Watch demo-api.mov](demo/demo-api.mov)
+
+### Board UI
+
+[![Board UI demo preview](demo/demo-board.mov.png)](demo/demo-board.mov)
+
+[Watch demo-board.mov](demo/demo-board.mov)
 
 ## Requirements
 
